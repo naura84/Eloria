@@ -513,28 +513,23 @@ signInButton.addEventListener('click', () => {
         <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
         <script>
     		const input = document.querySelector("#phone");
-			const iti = window.intlTelInput(input, {
-		 	initialCountry: "auto",
-		 	geoIpLookup: function(success, failure) {
-			 	fetch('https://ipinfo.io/json?token=<your_token_here>') // Remplacez <your_token_here> par votre token ipinfo.io
-				 	.then((resp) => resp.json())
-				 	.then((resp) => {
-					 	const countryCode = (resp && resp.country) ? resp.country : "us";
-					 	success(countryCode);
-				 	})
-				 	.catch(() => {
-					 	success("us");
-				 	});
-				},
-				utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"
-			});
-
+    		const iti = window.intlTelInput(input, {
+        	initialCountry: "auto",
+        	geoIpLookup: function(callback) {
+            fetch("https://ipapi.co/json")
+                .then(res => res.json())
+                .then(data => callback(data.country_code))
+                .catch(() => callback("us"));
+        	},
+        	utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"
+    		});
 			//Avant envoi du formulaire
 			document.querySelector('form').addEventListener('submit', function() {
 				const countryData = iti.getSelectedCountryData();
 				document.querySelector("#country").value = countryData.iso2; // Code pays (ex: 'us')
 				document.querySelector("#dial_code").value = countryData.dialCode; // Indicatif (ex: '1')
-				input.value = iti.getNumber(); // Numéro complet
+				code = countryData.dialCode;
+				input.value = "+" + code.toString() + " " + iti.getNumber().toString(); // Numéro complet plus le code du pays
 			});
 		</script>
     </body>
