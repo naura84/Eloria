@@ -77,95 +77,50 @@ INSERT INTO collections (name, description) VALUES
 
 INSERT INTO bijoux (name, description, price, collection_id) VALUES
 ("Aria", "Ce bracelet allie force et élégance avec son cordon en métal teinté d'or, symbole de raffinement intemporel. Les pierres blanches aux formes organiques, délicatement séparées par des perles dorée, apportent une touche d'authenticité et de lumière. Une perle centrale, plus généreuse, sert d'ajustement pour épouser parfaitement la courbe du poignet, alliant confort et chic discret.", 19.99, 1),
-("Astéria", "", 25.99, 2),
-("Aurora", "Laissez le temps se parer d'élégance. Cette pièce unique allie sophistication et symbolisme : un cadran doré qui capte chaque rayon de lumière, sublimé par un intérieur vert éméraude, symbole d'harmonie et de prospérité.
-
-Son bracelet, véritable chef d'oeuvre, se compose de pierres éméraudes scintillantes, entrelacées de perles blanches et dorées, formant un délicat trèfle à trois feuilles. Plus qu'une montre, c'est un talisman de chnace et de raffinement, conçu pour celles qui veulent conjuguer style et signification.", 30.8, 3),
-("Axis africaine", "Des montres au design épuré qui allient style et précision pour rythmer vos journées avec élégance.
-(Inclut : montres design, minimalistes, sophistiquées)", 18.90, 4),
-("Caresse de Velour", "Trois colliers dorés, trois personalités. Une chaîne carrée au design affirmé, une seconde ornée de pendentifs délicats, et une dernière pensée pour la touche finale. Minimalisme et élégance s'entrelacent pour sublimer votre style, sans en faire trop", 40.5, 5),
-("Charme éternel", "Des perles transluicides rappelant les galets polis par les vagues, traversées de filaments blancs comme l'écume. Un pendentif étoile argenté vient compléter ce bijou, capturant la lumière et l'esprit de l'océan à chaque mouvement.", 39.99, 6),
-("Chloé", "", 16.25, 7);
-("Collection l'Africaine", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Collection Noémie", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Crystal", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Eclat d'Or", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Eclipse", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Eméraude", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Emiliane", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Emilie", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Epure", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Eriyomi", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Feuille d'or", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Halo", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Impériale", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Jua", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Laura", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Layanie", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Liane d'argent", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Liane d'or", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Lili", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Linéa", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Maison Auréa", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Majestée", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Marianne", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Mono", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Naurélie", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Noémia", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Nuit Céleste", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Ondée Florale", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Orée", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Orion", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Perle de Lune", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Pierres d'Axis", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Point Lumière", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Racine sacrée", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Reflet d'Opale", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Sènan", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Songe étoilé", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Songe étoilée", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Spirale d'or", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
-("Vert éméraude", "Des bijoux simples, purs et élégants, pour un style minimaliste qui s’adapte à tout.
-(Inclut : colliers fins, bracelets simples, boucles d’oreilles basiques et chic)", 16.25, 7);
+("Astéria", "", 27.99, 2),
+("Aurora", "Laissez le temps se parer d'élégance. Cette pièce unique allie sophistication et symbolisme : un cadran doré qui capte chaque rayon de lumière, sublimé par un intérieur vert éméraude, symbole d'harmonie et de prospérité.", 30.19, 3),
+("Axis africaine", "", 39.90, 4),
+("Caresse de Velour", "Trois colliers dorés, trois personalités. Une chaîne carrée au design affirmé, une seconde ornée de pendentifs délicats, et une dernière pensée pour la touche finale. Minimalisme et élégance s'entrelacent pour sublimer votre style, sans en faire trop", 26.99, 5),
+("Charme éternel", "Des perles transluicides rappelant les galets polis par les vagues, traversées de filaments blancs comme l'écume. Un pendentif étoile argenté vient compléter ce bijou, capturant la lumière et l'esprit de l'océan à chaque mouvement.", 9.99, 6),
+("Chloé", "Laissez vous envoûter par ce ensemble somptueux, véritable hommage à l'élégance intemporelle. Composé d'un collier, de boucles d'oreilles et de bagues assorties, chaque pièce se pare de pierres dorées et blanches délicates, captant la lumière avec un éclat discret mais irrésistible", 58.25, 7);
+("Crystal", "Un collier aérien qui évoque la douceur de la plage. De délicates pierres blanches, lumineuses comme des gouttes de sable sous le soleil, s'alignent avec harmonie. Chaque groupe de quatre perles rondes en spirale, un subtil détail qui ajoute mouvement et caractère au bijou. Un accessoire qui respire la fraîchaur, la légerté et l'élégance naturelle.", 16.25, 7);
+("Eclat d'Or", "Un ensemble qui joue avec les formes et les symboles : collier, boucles d'oreilles et bagues assortis. Le collier, simple et raffiné, porte un pendentif carré en forme de labyrinthe, captivant et unique, avec une seule issue qui attire le regard. Les boucles d'oreilles et la bague reprennent cette forme singulière, créant une harmonie subtile et mystérieuse. Un bijou pour celles qui aiment le style géométrique, élégant et porteur de sens.", 26.8, 7);
+("Eclipse", "Des boucles d'oreilles rondes qui captivent par leu délicatesse. Autour du cercleprincipal, de petites formes rondes se superposent avec légerté, créant un jeu de profondeur et de mouvement. Leur teinte dorée, chaude et lumineuse, attire la lumière à chaque mouvement, offrant un éclat subtil et raffiné. Un bijou qui allie sophistication et modernité, pour un style à la fois chic et aérien.", 20.90, 7);
+("Eméraude", "", 16.25, 7);
+("Emiliane", "", 16.25, 7);
+("Emilie", "", 16.25, 7);
+("Epure", "", 16.25, 7);
+("Eriyomi", "", 16.25, 7);
+("Feuille d'or", "", 16.25, 7);
+("Halo", "", 16.25, 7);
+("Impériale", "", 16.25, 7);
+("Jua", "", 16.25, 7);
+("Laura", "", 16.25, 7);
+("Layanie", "", 16.25, 7);
+("Liane d'argent", "", 16.25, 7);
+("Liane d'or", "", 16.25, 7);
+("Lili", "", 16.25, 7);
+("Linéa", "", 16.25, 7);
+("Maison Auréa", "", 16.25, 7);
+("Majestée", "", 16.25, 7);
+("Marianne", "", 16.25, 7);
+("Mono", "", 16.25, 7);
+("Naurélie", "", 16.25, 7);
+("Noémia", "", 16.25, 7);
+("Nuit Céleste", "", 16.25, 7);
+("Ondée Florale", "", 16.25, 7);
+("Orée", "", 16.25, 7);
+("Orion", "", 16.25, 7);
+("Perle de Lune", "", 16.25, 7);
+("Pierres d'Axis", "", 16.25, 7);
+("Point Lumière", "", 16.25, 7);
+("Racine sacrée", "", 16.25, 7);
+("Reflet d'Opale", "", 16.25, 7);
+("Sènan", "", 16.25, 7);
+("Songe étoilé", "", 16.25, 7);
+("Songe étoilée", "", 16.25, 7);
+("Spirale d'or", "", 16.25, 7);
+("Vert éméraude", "", 16.25, 7);
 
 
 INSERT INTO bijoux_photos (bijou_id, photo_url) VALUES
