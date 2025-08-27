@@ -82,46 +82,46 @@ INSERT INTO bijoux (name, description, price, collection_id) VALUES
 ("Axis africaine", "", 39.90, 4),
 ("Caresse de Velour", "Trois colliers dorés, trois personalités. Une chaîne carrée au design affirmé, une seconde ornée de pendentifs délicats, et une dernière pensée pour la touche finale. Minimalisme et élégance s'entrelacent pour sublimer votre style, sans en faire trop", 26.99, 5),
 ("Charme éternel", "Des perles transluicides rappelant les galets polis par les vagues, traversées de filaments blancs comme l'écume. Un pendentif étoile argenté vient compléter ce bijou, capturant la lumière et l'esprit de l'océan à chaque mouvement.", 9.99, 6),
-("Chloé", "Laissez vous envoûter par ce ensemble somptueux, véritable hommage à l'élégance intemporelle. Composé d'un collier, de boucles d'oreilles et de bagues assorties, chaque pièce se pare de pierres dorées et blanches délicates, captant la lumière avec un éclat discret mais irrésistible", 58.25, 7);
-("Crystal", "Un collier aérien qui évoque la douceur de la plage. De délicates pierres blanches, lumineuses comme des gouttes de sable sous le soleil, s'alignent avec harmonie. Chaque groupe de quatre perles rondes en spirale, un subtil détail qui ajoute mouvement et caractère au bijou. Un accessoire qui respire la fraîchaur, la légerté et l'élégance naturelle.", 16.25, 7);
-("Eclat d'Or", "Un ensemble qui joue avec les formes et les symboles : collier, boucles d'oreilles et bagues assortis. Le collier, simple et raffiné, porte un pendentif carré en forme de labyrinthe, captivant et unique, avec une seule issue qui attire le regard. Les boucles d'oreilles et la bague reprennent cette forme singulière, créant une harmonie subtile et mystérieuse. Un bijou pour celles qui aiment le style géométrique, élégant et porteur de sens.", 26.8, 7);
-("Eclipse", "Des boucles d'oreilles rondes qui captivent par leu délicatesse. Autour du cercleprincipal, de petites formes rondes se superposent avec légerté, créant un jeu de profondeur et de mouvement. Leur teinte dorée, chaude et lumineuse, attire la lumière à chaque mouvement, offrant un éclat subtil et raffiné. Un bijou qui allie sophistication et modernité, pour un style à la fois chic et aérien.", 20.90, 7);
-("Eméraude", "", 16.25, 7);
-("Emiliane", "", 16.25, 7);
-("Emilie", "", 16.25, 7);
-("Epure", "", 16.25, 7);
-("Eriyomi", "", 16.25, 7);
-("Feuille d'or", "", 16.25, 7);
-("Halo", "", 16.25, 7);
-("Impériale", "", 16.25, 7);
-("Jua", "", 16.25, 7);
-("Laura", "", 16.25, 7);
-("Layanie", "", 16.25, 7);
-("Liane d'argent", "", 16.25, 7);
-("Liane d'or", "", 16.25, 7);
-("Lili", "", 16.25, 7);
-("Linéa", "", 16.25, 7);
-("Maison Auréa", "", 16.25, 7);
-("Majestée", "", 16.25, 7);
-("Marianne", "", 16.25, 7);
-("Mono", "", 16.25, 7);
-("Naurélie", "", 16.25, 7);
-("Noémia", "", 16.25, 7);
-("Nuit Céleste", "", 16.25, 7);
-("Ondée Florale", "", 16.25, 7);
-("Orée", "", 16.25, 7);
-("Orion", "", 16.25, 7);
-("Perle de Lune", "", 16.25, 7);
-("Pierres d'Axis", "", 16.25, 7);
-("Point Lumière", "", 16.25, 7);
-("Racine sacrée", "", 16.25, 7);
-("Reflet d'Opale", "", 16.25, 7);
-("Sènan", "", 16.25, 7);
-("Songe étoilé", "", 16.25, 7);
-("Songe étoilée", "", 16.25, 7);
-("Spirale d'or", "", 16.25, 7);
+("Chloé", "Laissez vous envoûter par ce ensemble somptueux, véritable hommage à l'élégance intemporelle. Composé d'un collier, de boucles d'oreilles et de bagues assorties, chaque pièce se pare de pierres dorées et blanches délicates, captant la lumière avec un éclat discret mais irrésistible", 58.25, 7),
+("Collection l'Africaine", "", 39.90, 4),
+("Collection Noémie", "", 39.90, 4),
+("Crystal", "Un collier aérien qui évoque la douceur de la plage. De délicates pierres blanches, lumineuses comme des gouttes de sable sous le soleil, s'alignent avec harmonie. Chaque groupe de quatre perles rondes en spirale, un subtil détail qui ajoute mouvement et caractère au bijou. Un accessoire qui respire la fraîchaur, la légerté et l'élégance naturelle.", 16.25, 7),
+("Eclat d'Or", "Un ensemble qui joue avec les formes et les symboles : collier, boucles d'oreilles et bagues assortis. Le collier, simple et raffiné, porte un pendentif carré en forme de labyrinthe, captivant et unique, avec une seule issue qui attire le regard. Les boucles d'oreilles et la bague reprennent cette forme singulière, créant une harmonie subtile et mystérieuse. Un bijou pour celles qui aiment le style géométrique, élégant et porteur de sens.", 26.8, 7),
+("Eclipse", "Des boucles d'oreilles rondes qui captivent par leu délicatesse. Autour du cercleprincipal, de petites formes rondes se superposent avec légerté, créant un jeu de profondeur et de mouvement. Leur teinte dorée, chaude et lumineuse, attire la lumière à chaque mouvement, offrant un éclat subtil et raffiné. Un bijou qui allie sophistication et modernité, pour un style à la fois chic et aérien.", 20.90, 7),
+("Eméraude", "", 16.25, 7),
+("Emiliane", "", 16.25, 7),
+("Emilie", "", 16.25, 7),
+("Epure", "", 16.25, 7),
+("Eriyomi", "", 16.25, 7),
+("Feuille d'or", "", 16.25, 7),
+("Halo", "", 16.25, 7),
+("Impériale", "", 16.25, 7),
+("Jua", "", 16.25, 7),
+("Laura", "", 16.25, 7),
+("Layanie", "", 16.25, 7),
+("Liane d'argent", "", 16.25, 7),
+("Liane d'or", "", 16.25, 7),
+("Lili", "", 16.25, 7),
+("Linéa", "", 16.25, 7),
+("Maison Auréa", "", 16.25, 7),
+("Majestée", "", 16.25, 7),
+("Marianne", "", 16.25, 7),
+("Mono", "", 16.25, 7),
+("Naurélie", "", 16.25, 7),
+("Noémia", "", 16.25, 7),
+("Nuit Céleste", "", 16.25, 7),
+("Ondée Florale", "", 16.25, 7),
+("Orée", "", 16.25, 7),
+("Orion", "", 16.25, 7),
+("Perle de Lune", "", 16.25, 7),
+("Pierres d'Axis", "", 16.25, 7),
+("Point Lumière", "", 16.25, 7),
+("Racine sacrée", "", 16.25, 7),
+("Reflet d'Opale", "", 16.25, 7),
+("Sènan", "", 16.25, 7),
+("Songe étoilé", "", 16.25, 7),
+("Spirale d'or", "", 16.25, 7),
 ("Vert éméraude", "", 16.25, 7);
-
 
 INSERT INTO bijoux_photos (bijou_id, photo_url) VALUES
 (1, "img/Aria.jpg"),
