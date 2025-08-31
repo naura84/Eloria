@@ -16,6 +16,8 @@ CREATE TABLE users (
     role ENUM('client', 'admin') DEFAULT 'client',
     statut ENUM('actif', 'inactif') DEFAULT 'actif',
     date_naissance DATE,
+    reset_token_hash VARCHAR(64) DEFAULT NULL UNIQUE,
+    reset_token_expires_at DATETIME DEFAULT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );

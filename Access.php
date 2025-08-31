@@ -445,7 +445,7 @@ footer a {
 			<span>Or use your account</span>
 			<input type="email" name="login_email" placeholder="Email" required/>
 			<input type="password" name="login_password" placeholder="Password" required/>
-			<a href="#">Forgot your password?</a>
+			<a href="reset_mail.php">Forgot your password?</a>
 			<button type="submit" name="login">Sign In</button>
 		</form>
 	</div>
