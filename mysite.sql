@@ -114,5 +114,5 @@ INSERT INTO bijoux (name, description, price, collection_id, photo_url) VALUES
 ("Reflet d'Opale", "Des bijoux faits pour être portés. Osez !", 69.99, 2, "img/Reflet d'Opale.jpg"),
 ("Sènan", "Ressortir toute la richesse d'Afrique, ce bijou a été conçu exactement pour ça", 45.25, 5, "img/Sènan.jpg"),
 ("Songe étoilé", "Un ensemble vert éméraude, des couleurs or, telle est la réponse à la demande d'une princesse", 75.09, 3, "img/Songe étoilée.jpg"),
-("Spirale d'or", "Des bijoux montrant l'originalité et le renouveau, parez-vous de ces bijoux et come pas magie pour tourbillonerez de milles feux", 58.05, 6, , "img/Spirale d'or.jpg"),
+("Spirale d'or", "Des bijoux montrant l'originalité et le renouveau, parez-vous de ces bijoux et come pas magie pour tourbillonerez de milles feux", 58.05, 6, "img/Spirale d'or.jpg"),
 ("Vert éméraude", "Un collier aussi simple que mystique. Un seul pendentif, une chaîne en or pure et une couleur qui ne passe pas inaperçue", 125.99, 2, "img/Vert éméraude.jpg")
